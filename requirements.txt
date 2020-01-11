@@ -24,7 +24,7 @@ cookiecutter==1.6.0
 cryptography==2.1.4
 dateparser==0.7.2
 distro-info===0.18ubuntu0.18.04.1
-Django==2.0.2
+Django==2.0.12
 dnspython==1.16.0
 docker==4.1.0
 docutils==0.15.2
