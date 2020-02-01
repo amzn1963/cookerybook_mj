@@ -64,6 +64,8 @@ FEATURES
 <p>Thirdly, there are edit and delete buttons the user can use to assist them when using the site.</p>
 <p>Finally, there is a slideout facility which gives the user information to contact the website designer for any queries/questions.</p>
 
+<ol>
+    <li>
 <h3>
     <a id="user-content-home-page" class="anchor" aria-hidden="true" href="#home-page"></a>
 Home Page
@@ -71,7 +73,8 @@ Home Page
 
 <p>The home page give the user a list of 24 recipes which are stored inside the Mongo database.  By clicking any recipe it will give you a brief description of what the recipe is about.  The recipe will popout and be shaded so the user will be able to read the details clearly but still remain on the page and by simply clicking the unlighted area the popout will close.  Very simple and straightforward use of the materialize framework.</p>
 <p>There are also two buttons available, these are delete and edit, both of which both work - <strong>Be very careful - As these will affect the information stored at the database.</strong> See further information at features left to implement section.</p>
-
+    </li>
+    <li>
 <h3>
     <a id="user-content-new-recipe" class="anchor" aria-hidden="true" href="#new-recipe"></a>
 New Recipe
@@ -83,7 +86,8 @@ New Recipe
 <p>The next form field gives the user to input all ingredients required to create the recipe, this would include quantities, special named ingredients etc.</p>
 <p>The final form field gives the user to list in order how to put the recipe together, this would include cooking times, preparation of ingredients, any cooking tips they would like to share and how to serve the final product.</p>
 <p>There at the bottom of the page is a button where the user can click and the recipe will be added to the database</p>
-
+    </li>
+    <li>
 <h3>
     <a id="user-content-manage-categories" class="anchor" aria-hidden="true" href="#manage-categories"></a>
 </h3>
@@ -93,14 +97,16 @@ New Recipe
 <p>The first button is the delete button.  This will delete the category from the database. <strong>This button is active and should not be used until safeguards have been put in place</strong>. (This will explained later in the Features left to implement section).</p>
 <p>The second button is the edit button.  This will edit the category within the database - as previously mentioned, the button is active and should again be used with caution.</p>
 <p>The third button is the add category button which the user can create a brand new category for which their recipe would align with.  Again this button is active and would advise the reader to check 'Features left to implement' section prior to use.</p>
-
+    </li>
+    <li>
 <h3>
     <a id="user-content-contact-page" class="anchor" aria-hidden="true" href="#contact-page"></a>
 </h3>
 
 <p>At the top left below the navbar on every page there is burger bar which when clicked information is produced via a slide out option.  There are 4 item listed vertically: home, new recipe, manage categories and login.  The first three items act as a navbar where the last item is not active but placed there for future development.</p>
-<p>I have attached an image of myself and a dining table laid out - to keep in the theme of cookery.  This is little addon touch to give the user a better feel to the site.</P>
-
+<p>I have attached an image of myself and a dining table laid out - to keep in the theme of cookery.  This is little addon touch to give the user a better feel to the site.</p>
+    </li>
+    <li>
 <h3>
     <a id="user-content-navbar" class="anchor" aria-hidden="true" href="#navbar"></a>
 </h3>
@@ -108,7 +114,8 @@ New Recipe
 <p>The navbar which is mounted at the top of the page has a few features which help the user in their actions whenusing the site.  Firstly, there is the title of the website - but it also acts as a link to the home page. This comes in handy for the user just to click the name instead of moving across to the other selections that are available.</P>
 <p>When moving across to the right hand side of the navbar there are three options the user can click.  Firstly the home page link which is essential.  Secondly there is the 'New Recipe' link which takes the user to the new recipe page and finally the 'Manage Categores' link which again will take the user to the edit category page.</p>
 <p>This navbar stays at the home of every page the user will visit so the user cannot get lost in the site.</p>
-
+    </li>
+</ol>
 <h2>
     <a id="user-content-features-left-to-implement" class="anchor" aria-hidden="true" href="#features-left-to-implement"></a>
 </h2>
@@ -119,12 +126,13 @@ New Recipe
 <p>Leading on from registration this will also give the user an opportunity to score recipes - either via star rating or by voting.
 With registration being enabled the user can add a recipe, edit their own recipes or delete their recipes - this gives more control and prevents other user deleting other users recipes.</p>
 <p>Also with users - incorporating some sort of blog page - users can interact with each other - share tips, using different ingredients to suit users around the world etc.</p>
-
+    
 <h2>
     <a id="user-content-technologies-used" class="anchor" aria-hidden="true" href="#technologies-used"></a>
 </h2>
 
 <p>The framework used was materialize (see link https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css) which also gave me the CSS stylesheets that was required. These gave me the structure that I required. I was impressed by one of the tutorials demonstrating different fonts and therefore I included fontawesome (see link https://fontawesome.com/). For the slide out - there is code already available at the Materialize page which basically was a copy and paste exercise with minimal additions. There is also scripts from cdnjs giving the necessary jquery - (see link https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js and https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js) All the technologies used was encouraged by various tutors in the modules and using their knowledge and experience it was very useful. Not only the usefulness but also an understanding a new coder needs to learn and implement with confidence.</p>
+    
 
 <h2>
    <a id="user-content-testing" class="anchor" aria-hidden="true" href="#testing"></a>
@@ -138,7 +146,7 @@ With registration being enabled the user can add a recipe, edit their own recipe
             alt="Valid CSS!" />
     </a>
 </p>
-
+    
 <h2>
     <a id="user-content-deployment" class="anchor" aria-hidden="true" href="#deployment"></a>
 </h2>
