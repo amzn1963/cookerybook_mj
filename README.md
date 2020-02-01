@@ -90,7 +90,7 @@ New Recipe
     <li>
 <h3>
     <a id="user-content-manage-categories" class="anchor" aria-hidden="true" href="#manage-categories"></a>
-</h3>
+Manage Categories</h3>
 
 <p>There are a total 8 different categories the user can choose from ranging from 'quick and easy' to 'cuisines' which showcase dishes from around the world.</p>
 <p>There are also three buttons to assist the user when using this part of the website.</p>
@@ -101,7 +101,7 @@ New Recipe
     <li>
 <h3>
     <a id="user-content-contact-page" class="anchor" aria-hidden="true" href="#contact-page"></a>
-</h3>
+Contact Page</h3>
 
 <p>At the top left below the navbar on every page there is burger bar which when clicked information is produced via a slide out option.  There are 4 item listed vertically: home, new recipe, manage categories and login.  The first three items act as a navbar where the last item is not active but placed there for future development.</p>
 <p>I have attached an image of myself and a dining table laid out - to keep in the theme of cookery.  This is little addon touch to give the user a better feel to the site.</p>
@@ -109,7 +109,7 @@ New Recipe
     <li>
 <h3>
     <a id="user-content-navbar" class="anchor" aria-hidden="true" href="#navbar"></a>
-</h3>
+Navbar</h3>
 
 <p>The navbar which is mounted at the top of the page has a few features which help the user in their actions whenusing the site.  Firstly, there is the title of the website - but it also acts as a link to the home page. This comes in handy for the user just to click the name instead of moving across to the other selections that are available.</P>
 <p>When moving across to the right hand side of the navbar there are three options the user can click.  Firstly the home page link which is essential.  Secondly there is the 'New Recipe' link which takes the user to the new recipe page and finally the 'Manage Categores' link which again will take the user to the edit category page.</p>
@@ -118,7 +118,7 @@ New Recipe
 </ol>
 <h2>
     <a id="user-content-features-left-to-implement" class="anchor" aria-hidden="true" href="#features-left-to-implement"></a>
-</h2>
+Features Left To Implement</h2>
 
 <p>As this site is designed for users to read about existing recipes within a variety of categories, there are options for users to contribute their own recipes which will be shared with other users.</p>
 <p>With recipes it is always good to supply a picture of the finished product - displayed in way that users will find it pleasing on the eye.  Unfortunately, the course work leading up to this project did not cover uploading of pictures with MongoDB but with further training, I am confident these can be added</p>
@@ -129,15 +129,16 @@ With registration being enabled the user can add a recipe, edit their own recipe
     
 <h2>
     <a id="user-content-technologies-used" class="anchor" aria-hidden="true" href="#technologies-used"></a>
-</h2>
+Technologies Used</h2>
 
 <p>The framework used was materialize (see link https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css) which also gave me the CSS stylesheets that was required. These gave me the structure that I required. I was impressed by one of the tutorials demonstrating different fonts and therefore I included fontawesome (see link https://fontawesome.com/). For the slide out - there is code already available at the Materialize page which basically was a copy and paste exercise with minimal additions. There is also scripts from cdnjs giving the necessary jquery - (see link https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js and https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js) All the technologies used was encouraged by various tutors in the modules and using their knowledge and experience it was very useful. Not only the usefulness but also an understanding a new coder needs to learn and implement with confidence.</p>
     
 
 <h2>
    <a id="user-content-testing" class="anchor" aria-hidden="true" href="#testing"></a>
-</h2>
+Testing</h2>
 
+<p>Test all buttons for functionality - when using delete the category and/or recipe is deleted at MongoDB.  Similary, the add and edit buttons all create new fields within MongoDB</p>
 <p>Using Chrome as my default browser I used its development tools to check the responsiveness of the website through various screen sizes. I have run the CSS through a validation site (see link https://jigsaw.w3.org/css-validator/).</p>
 <p>
     <a href="http://jigsaw.w3.org/css-validator/check/referer">
@@ -149,7 +150,7 @@ With registration being enabled the user can add a recipe, edit their own recipe
     
 <h2>
     <a id="user-content-deployment" class="anchor" aria-hidden="true" href="#deployment"></a>
-</h2>
+Deployment</h2>
 
 <p>This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://amzn1963.github.io/cookerybook_mj/ into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.</p>
@@ -157,7 +158,7 @@ To run locally, you can clone this repository directly into the editor of your c
 
 <h2>
     <a id="user-content-credits" class="anchor" aria-hidden="true" href="#credits"></a>
-</h2>
+Credits</h2>
 
 <p>All recipes and the related categories were found on the BBC Food Website https://www.bbcgoodfood.com/</p>
 <p>All styling were utiilized using the Materialize framework.</p>
