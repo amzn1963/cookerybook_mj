@@ -145,6 +145,7 @@ With registration being enabled the user can add a recipe, edit their own recipe
 
 <p>This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://amzn1963.github.io/cookerybook_mj/ into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.</p>
+<p>Using Heroku - auto build and deploy has been activated - this gives an active web address https://mj-cookerybook.herokuapp.com/get_recipes
 
 <h2>
     <a id="user-content-credits" class="anchor" aria-hidden="true" href="#credits"></a>
